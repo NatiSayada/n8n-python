@@ -64,7 +64,7 @@ jobs:
       
       - name: update the image
         run: | 
-          docker-compose --file /apps/docker-compose.yml pull && docker-compose --file /apps/docker-compose.yml up -d
+          docker-compose --file /apps/docker-compose.yml pull n8n && docker-compose --file /apps/docker-compose.yml up -d
           
         
   
